@@ -1,0 +1,245 @@
+<!DOCTYPE>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <meta name="discription" content="自己紹介" />
+    <meta name="keywords" content="自己紹介、自己紹介ページ、サービス紹介、アプリ紹介" />
+    <title>自己紹介 | サービス紹介ページ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrapのjs読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <style>
+        body {
+            font-size: 14px;
+            background-color: black;
+            color: white;
+        }
+        
+        .navbar {
+            border-radius: 0;
+        }
+        
+        .row {
+            margin-bottom: 50px;
+        }
+        
+        .icon {
+            text-align: center;
+        }
+        
+        .icon .glypicon {
+            margin-bottom: 10px;
+            font-size: 40px;
+            color: #777;
+        }
+        
+        .content h2 {
+            margin-top: 0;
+            padding-bottom: 15px;
+        }
+        .content p {
+            margin-bottom: 30px;
+        }
+        
+        footer {
+            border-top: 1px solid#e7e7e7;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        
+        .copyright {
+            padding: 20px 0;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                font-size: 12px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+            .panel-title {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body class="top">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">プログラミング学習への道(ruby編)</a>
+                </div>
+                
+<!-- body.top > ul.nav li.nth-child(1) { background-color: red; }" -->
+                <div class="collapse navbar-collapse" id="site-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">自己紹介</a></li>
+                        <li><a href="#serviceinfo">サービス紹介</a></li>
+                        <li><a href="#">MyGithub</a></li>
+                        <li class="active"><a href="#">お問い合わせ</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                その他
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">メモ書き</a></li>
+                                <li><a href="#">参考にしたもの</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>    
+    <div class="container">
+        <div class="col-md-12">
+            <div class="panel-success">
+                <div class="panel panel-heading">
+                    <h1>自己紹介</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel-success">
+                    <div class="panel panel-heading">
+                        <h2>プロフィール</h2>
+                    </div>
+                    <div class="panel-body">
+                        <img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img>
+                        <div>
+                            <h3>児玉継兵</h3>
+                            <p>テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+                
+                <!-- Accordion -->
+                <h2 class="demoHeaders">自己紹介</h2>
+                <div id="accordion">
+            	<h3>ニックネーム</h3>
+            	<div>へいちゃん</div>
+            	<h3>趣味</h3>
+            	<div>ダイエット</div>
+            	<h3>プログラミングを始めた理由</h3>
+            	<div>自由な時間を得るため。</div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel-warning">
+                <div class="panel panel-heading">
+                    <h1>サービス紹介</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel-success">
+                    <div class="panel panel-heading">
+                        <h2>プロフィール</h2>
+                    </div>
+                    <div class="panel-body">
+                        <img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img>
+                        <div>
+                            <h3>児玉継兵</h3>
+                            <p>テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+                <!-- Accordion -->
+                <a name="serviceinfo">&nbsp;</a>
+                <h2 class="demoHeaders">サービス紹介</h2>
+                <div id="accordion2">
+            	<h3>サービス１</h3>
+            	<div><img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img></div>
+            	<h3>サービス２</h3>
+            	<div><img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img></div>
+            	<h3>サービス３</h3>
+            	<div><img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel-danger">
+                <div class="panel panel-heading">
+                    <h1>サービス紹介</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel-success">
+                    <div class="panel panel-heading">
+                        <h2>プロフィール</h2>
+                    </div>
+                    <div class="panel-body">
+                        <img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img>
+                        <div>
+                            <h3>児玉継兵</h3>
+                            <p>テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12">
+                    <h1>サービス紹介</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel-success">
+                        <div class="panel panel-heading">
+                            <h2>プロフィール</h2>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <img class="img-rounded img-responsive" style='display:inline-block;' alt="Cinque Terre" width="140" height="100" src="img/myprofileimg.png"></img>
+                    </div>
+                    <div>
+                        <h3>児玉継兵</h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+<script>
+    $( "#accordion" ).accordion();
+    $( "#accordion2" ).accordion();
+</script>
+</body>
+</html>

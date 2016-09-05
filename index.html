@@ -4,15 +4,95 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="discription" content="自己紹介" />
+    <meta name="keywords" content="自己紹介、自己紹介ページ、サービス紹介、アプリ紹介" />
+    <title>ポートフォリオ|ホーム</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/about.css">
+    <!-- BighubiconのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-  </body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="info_service.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="img/myprofileimg.png" alt="">
+        <h1>ほ~む</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>つぎへい'sプロフィール</h3>
+        </div>
+        <div class="panel-body">
+          <h3>自己紹介</h3>
+          <p>児玉 継兵（社内SE）</p>
+          <p>東京都墨田区出身。働く場所にとらわれない仕事がしたいと思いプログラミングの学習を始めました。</p>
+          <p>仕事は社内SEをやっていてイメージしづらいと思いますが、私がしている仕事は会社内のIT聞き全般の管理やそれらのヘルプ作業その他のインフラ少しアプリケーション等に関するものを行っている仕事になります。</p>
+          <p>また、趣味というか必要に迫られてダイエットをしており現在３０キロまで成功して残り１０キロ落とすのを今年の目標にしております。</p>
+          <p>今年中の目標としては、もう一つありそれは<span class="red">Ruby on Rails</span> を使って仕事をするということです。</p>
+          <P>それでは頑張りますので皆さんよろしくお願いします</P>
+          <p>私のポートフォリオを見て気になった方は、<a href="contact.html">Contact</a>または、下記のリンクよりご連絡お願い致します。</p>
+          <h3>リンク</h3>
+          <table class="table table-hover">
+            <!--
+            <tr><td>
+              <a href="https://www.facebook.com/tarokirameki" target="_blank" class="btn btn-success btn-lg btn-block">Facebook<span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+              </a>
+            </td></tr>
+            <tr><td>
+              <a href="https://twitter.com/tarokirameki" target="_blank">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Twitter<span class="glyphicon glyphicon-italic" aria-hidden="true"></span></button>
+                </a>
+            </td></tr>
+            <tr><td>
+              <a href="https://github.com/kodamatsugihei" target="_blank">
+                <button type="button" class="btn btn-default btn-lg btn-block">GitHub<span class="glyphicon glyphicon-headphones" aria-hidden="true"></span></button>
+              </a>
+            </td></tr>
+            -->
+            <tr><td>
+              <a href="https://github.com/kodamatsugihei" class="btn btn-default btn-lg btn-block" target="_blank">
+                <!--<button type="button" class="btn btn-default btn-lg btn-block">-->
+                  <span class="octicon octicon-logo-github"></span>
+                  <span class="octicon octicon-clock"></span>
+                  <span class="mega-octicon octicon-mark-github"></span>
+                <!--</button>-->
+              </a>
+            </td></tr>
+            <tr><td>
+              <a href="https://twitter.com/tarokirameki" class="btn btn-primary btn-lg btn-block" target="_blank">
+                <img src="img/twitter-logo.png" width="30" height="30" alt="Twitter Logo">Twitter(工事中)
+                <!--<button type="button" class="btn btn-primary btn-lg btn-block"><img src="img/twitter-logo.png" width="30" height="30" alt="Twitter Logo">Twitter(工事中)</button>-->
+                </a>
+            </td></tr>
+            <tr><td>
+            <tr><td>
+              <a href="https://www.facebook.com/tarokirameki" class="btn btn-success btn-lg btn-block" target="_blank">
+                <img src="img/facebook-logo.jpg" width="30" height="30" alt="Facebook Logo">Facebook(工事中)
+                <!--<button type="button" class="btn btn-success btn-lg btn-block"><img src="img/facebook-logo.jpg" width="30px" height="30px"></img>Facebook(工事中)</button>-->
+              </a>
+            </td></tr>
+          </table>
+        </div>
+      </div>
+      </section>
+      <footer>
+        <p>&copy; 2015 Taro Kirameki.</p>
+      </footer>
+    </div>
 </html>
